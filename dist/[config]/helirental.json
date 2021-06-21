@@ -1,0 +1,102 @@
+{
+  "framework": "esx",
+  "lang": "en",
+  "keys": {
+    "openMenu": 38
+  },
+  "rentForFree": false,
+  "payForTime": true,
+  "payInterval": 5,
+  "blockIfCantPay": false,
+  "payForDamage": true,
+  "damageCost": 1,
+  "payIfDestroyed": true,
+  "destroyedPayMultiplier": 10,
+  "menu": {
+    "scale": 1,
+    "bgPrimary": "#4a4a55",
+    "bgSecondary": "#35353f",
+    "xActive": "#ff666f",
+    "xInactive": "#4a4a55"
+  },
+  "vehicles": [
+    {
+      "model": "havok",
+      "label": "Havok",
+      "price": 36,
+      "info": [
+        "In the world of tactical air support, bigger is better, right? Wrong. Consider this. The next time one of your legitimate business associates arranges to meet you in the bathroom of a crack den in Banning, they could swing open the stall door to find you hovering over the bowl in one of these beauties."
+      ]
+    },
+    {
+      "model": "seasparrow",
+      "label": "Sea Sparrow",
+      "price": 46,
+      "info": ["One day, and it's always sooner than you think, you're going to find yourself in a position where you need to stage an amphibious landing in a fragile miniature helicopter capable of firing off dozens of rounds a second."]
+    },
+    {
+      "model": "frogger",
+      "label": "Frogger",
+      "price": 82,
+      "info": ["Stylish, roomy, easy to handle with a cruise speed of 130 knots, this 4-seat single-engine light helicopter is popular with both private pilots and charter companies. Featuring an enclosed tail fan, the Frogger is one of the quietest helicopters on the market today. Especially great for the man who needs to get to work fast but can't bear the moaning of neighbors complaining about noise and rotor wash."]
+    },
+    {
+      "model": "maverick",
+      "label": "Maverick",
+      "price": 78,
+      "info": ["A two-bladed, twin-engine helicopter, the Maverick was manufactured in Canada, but you shouldn't let that put you off. Originally designed for military use, when the army rejected them for looking too 'French', they became hugely popular with rich social climbers for exactly the same reason. Billion candlepower spotlight and loudspeaker optional, but trust us, it's fun to play with over poor neighborhoods at night."]
+    }
+  ],
+  "zones": [
+    {
+      "name": "airport",
+      "marker": {
+        "x": -1184.61,
+        "y": -2834.47,
+        "z": 12.95
+      },
+      "spawn": {
+        "x": -1178.26,
+        "y": -2845.77,
+        "z": 12.95,
+        "h": 151.95
+      },
+      "showBlip": true
+    }
+  ],
+  "marker": {
+    "type": 1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 1.0
+    },
+    "color": {
+      "r": 35,
+      "g": 191,
+      "b": 124
+    },
+    "alpha": 100,
+    "bob": false,
+    "face": false,
+    "distance": {
+      "show": 100.0,
+      "open": 2.0
+    }
+  },
+  "blips": {
+    "color": 17,
+    "id": 43,
+    "size": 1.0
+  }
+}
